@@ -1,0 +1,15 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales y configuración privada
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Dataset original y archivos intermedios pesados
+data/Spotify Tracks Dataset.csv
+data/tracks_clean.csv
+data/tracks_profiles.csv
+data/tracks_unique.csv
